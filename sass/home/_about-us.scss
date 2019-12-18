@@ -1,0 +1,22 @@
+$primary-font: "Barlow Semi Condensed", sans-serif;
+$secondary-font: "Lato", sans-serif;
+
+body {
+  div.about-us {
+    margin-top: 2em;
+    .row {
+      .col-md {
+        padding-left: 0;
+        position: relative;
+        width: 100%;
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .col.text {
+        padding-right: 3em;
+      }
+    }
+  }
+}

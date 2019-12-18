@@ -22,5 +22,80 @@ body nav.navbar a {
   font-size: 0.9em;
   font-family: "Lato", sans-serif;
 }
+body nav.navbar button {
+  background-color: #eeeeee;
+  font-size: 1em;
+  padding: 0.7em;
+}
+
+body div.top {
+  background: linear-gradient(to bottom, #fff, #fbfbfb);
+}
+body div.top .row .col-md .container h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
+body div.top .row .col-md .container h3 {
+  color: #343a40;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+body div.top .row .col-md .container h3 span {
+  color: #ff3f34;
+}
+body div.top .row .col-md .container p {
+  margin-bottom: 3em;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+}
+body div.top .row .col-md .container div button {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  padding: 1em 1.3em;
+}
+body div.top .row .col-md .container div button:hover {
+  background-color: #05c46b;
+  border-color: #05c46b;
+  opacity: 0.8;
+}
+body div.top .row .col-md .container div button.btn-success {
+  background-color: #05c46b;
+  border-color: #05c46b;
+}
+body div.top .row .col-md .container div button.btn-outline-secondary {
+  margin-left: 1em;
+}
+body .carousel-indicators {
+  margin-bottom: 0;
+}
+body .carousel-indicators li {
+  background-color: black;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+body .carousel-indicators .active {
+  background-color: red;
+}
+
+body div.about-us {
+  margin-top: 2em;
+}
+body div.about-us .row .col-md {
+  padding-left: 0;
+  position: relative;
+  width: 100%;
+}
+body div.about-us .row .col-md img {
+  max-width: 100%;
+}
+body div.about-us .row .col.text {
+  padding-right: 3em;
+}
 
 /*# sourceMappingURL=main.css.map */

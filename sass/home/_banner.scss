@@ -1,0 +1,76 @@
+$primary-font: "Barlow Semi Condensed", sans-serif;
+$secondary-font: "Lato", sans-serif;
+
+body {
+  div.top {
+    background: linear-gradient(to bottom, #fff, #fbfbfb);
+    .row {
+      .col-md {
+        .container {
+          h5 {
+            font-family: $secondary-font;
+            font-size: 1.2em;
+            letter-spacing: 0.2em;
+          }
+
+          h3 {
+            color: #343a40;
+            font-family: $primary-font;
+            font-size: 2.5em;
+            font-weight: bolder;
+
+            span {
+              color: #ff3f34;
+            }
+          }
+
+          p {
+            margin-bottom: 3em;
+            color: #999999;
+            font-family: $secondary-font;
+            font-size: 1.1em;
+          }
+
+          div {
+            button {
+              font-family: $secondary-font;
+              font-size: 0.8em;
+              letter-spacing: 0.2em;
+              padding: 1em 1.3em;
+            }
+
+            button:hover {
+              background-color: #05c46b;
+              border-color: #05c46b;
+              opacity: 0.8;
+            }
+
+            button.btn-success {
+              background-color: #05c46b;
+              border-color: #05c46b;
+            }
+
+            button.btn-outline-secondary {
+              margin-left: 1em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+    li {
+      background-color: black;
+      opacity: 1;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+    }
+
+    .active {
+      background-color: red;
+    }
+  }
+}
