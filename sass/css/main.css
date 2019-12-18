@@ -1,0 +1,26 @@
+body nav.navbar {
+  padding-right: 5em;
+  padding-left: 5em;
+}
+body nav.navbar a.navbar-brand {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #3a3939;
+  padding: 0;
+  position: relative;
+}
+body nav.navbar a.navbar-brand span {
+  color: #ff3f34;
+  font-size: 0.3em;
+  letter-spacing: 6px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+body nav.navbar a {
+  font-size: 0.9em;
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
