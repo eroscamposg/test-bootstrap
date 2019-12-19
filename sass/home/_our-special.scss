@@ -1,0 +1,28 @@
+@use 'utils' as util;
+
+body {
+  div.our-special {
+    .container.title {
+      margin: 3.5em 0;
+    }
+    .container.cards {
+      .card-deck {
+        .card {
+          div.card-body {
+            h5 {
+              font-family: util.$primary-font;
+              font-size: 1.4em;
+              letter-spacing: normal;
+            }
+            p {
+              color: #999999;
+              font-family: util.$secondary-font;
+              font-size: 1em;
+              margin-bottom: 3em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

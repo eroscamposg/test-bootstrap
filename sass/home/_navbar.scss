@@ -1,5 +1,4 @@
-$primary-font: "Barlow Semi Condensed", sans-serif;
-$secondary-font: "Lato", sans-serif;
+@use 'utils' as utils;
 
 body {
   nav.navbar {
@@ -7,7 +6,7 @@ body {
     padding-left: 5em;
 
     a.navbar-brand {
-      font-family: $primary-font;
+      font-family: utils.$primary-font;
       font-size: 2.2em;
       font-weight: bold;
       color: #3a3939;
@@ -25,7 +24,7 @@ body {
     }
     a {
       font-size: 0.9em;
-      font-family: $secondary-font;
+      font-family: utils.$secondary-font;
     }
     button {
       background-color: #eeeeee;

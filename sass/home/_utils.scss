@@ -1,0 +1,15 @@
+$primary-font: "Barlow Semi Condensed", sans-serif;
+$secondary-font: "Lato", sans-serif;
+
+@mixin button {
+  font-family: $secondary-font;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  padding: 1em 1.3em;
+}
+
+@mixin button-hover {
+  background-color: #05c46b;
+  border-color: #05c46b;
+  opacity: 0.9;
+}

@@ -1,3 +1,38 @@
 @use 'navbar';
 @use 'banner';
 @use 'about-us';
+@use 'our-special';
+
+@use 'utils';
+
+body {
+  h5 {
+    font-family: utils.$secondary-font;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+  }
+
+  h3 {
+    color: #343a40;
+    font-family: utils.$primary-font;
+    font-size: 2.5em;
+    font-weight: bolder;
+
+    span {
+      color: #ff3f34;
+    }
+  }
+
+  button.btn {
+    @include utils.button;
+  }
+
+  button.btn:hover {
+    @include utils.button-hover;
+  }
+
+  button.btn-success {
+    background-color: #05c46b;
+    border-color: #05c46b;
+  }
+}
