@@ -1,0 +1,38 @@
+@use 'utils' as utils;
+
+body {
+  div.best {
+    padding: 0;
+    div.row {
+      div.col-md {
+        div.container {
+          padding: 6em 1.5em;
+
+          a {
+            color: white;
+            font-family: utils.$primary-font;
+            font-size: 2em;
+            font-weight: bolder;
+          }
+          p {
+            color: white;
+            font-family: utils.$secondary-font;
+            margin-top: 1em;
+          }
+          div {
+            margin-top: 4em;
+          }
+        }
+      }
+
+      div.first {
+        background-image: url("../../images/bg3.jpg");
+        background-size: cover;
+      }
+      div.second {
+        background-image: url("../../images/bg4.jpg");
+        background-size: cover;
+      }
+    }
+  }
+}

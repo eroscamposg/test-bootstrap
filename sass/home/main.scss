@@ -1,9 +1,12 @@
+@use 'utils';
+
 @use 'navbar';
 @use 'banner';
 @use 'about-us';
 @use 'our-special';
-
-@use 'utils';
+@use 'best';
+@use 'our-work';
+@use 'carrousel';
 
 body {
   h5 {
@@ -15,7 +18,7 @@ body {
   h3 {
     color: #343a40;
     font-family: utils.$primary-font;
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: bolder;
 
     span {

@@ -69,8 +69,12 @@ body div.about-us .row .col.text {
   padding-right: 3em;
 }
 
+body div.our-special {
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+}
 body div.our-special .container.title {
-  margin: 3.5em 0;
+  margin-bottom: 3.5em;
 }
 body div.our-special .container.cards .card-deck .card div.card-body h5 {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -84,6 +88,70 @@ body div.our-special .container.cards .card-deck .card div.card-body p {
   margin-bottom: 3em;
 }
 
+body div.best {
+  padding: 0;
+}
+body div.best div.row div.col-md div.container {
+  padding: 6em 1.5em;
+}
+body div.best div.row div.col-md div.container a {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+}
+body div.best div.row div.col-md div.container p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-top: 1em;
+}
+body div.best div.row div.col-md div.container div {
+  margin-top: 4em;
+}
+body div.best div.row div.first {
+  background-image: url("../../images/bg3.jpg");
+  background-size: cover;
+}
+body div.best div.row div.second {
+  background-image: url("../../images/bg4.jpg");
+  background-size: cover;
+}
+
+body div.our-work {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  background-color: #fefefe;
+  background-image: url("../../images/bg5.jpg");
+  background-size: cover;
+  position: relative;
+}
+body div.our-work div.container div.row.first {
+  margin: 3em 0;
+}
+body div.our-work div.container div.row.outside {
+  margin-bottom: 5em;
+}
+body div.our-work div.container div.row.outside div div div.inside a {
+  color: #333333;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+body div.our-work div.container div.row.outside div div div.inside p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+body div.our-work div.container div.img-food {
+  position: absolute;
+  bottom: -20%;
+}
+
+body div.carrousel {
+  padding: 0;
+  min-height: 8em;
+}
 body h5 {
   font-family: "Lato", sans-serif;
   font-size: 1.2em;
@@ -92,7 +160,7 @@ body h5 {
 body h3 {
   color: #343a40;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-weight: bolder;
 }
 body h3 span {

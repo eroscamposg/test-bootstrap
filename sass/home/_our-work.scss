@@ -1,0 +1,45 @@
+@use 'utils' as util;
+
+body {
+  div.our-work {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    background-color: #fefefe;
+    background-image: url("../../images/bg5.jpg");
+    background-size: cover;
+    position: relative;
+
+    div.container {
+      div.row.first {
+        margin: 3em 0;
+      }
+
+      div.row.outside {
+        margin-bottom: 5em;
+        div {
+          div {
+            div.inside {
+              a {
+                color: #333333;
+                font-family: util.$primary-font;
+                font-size: 1.5em;
+                font-weight: bolder;
+              }
+              p {
+                color: #999999;
+                font-family: util.$secondary-font;
+                font-size: 1.1em;
+                margin-top: 1em;
+              }
+            }
+          }
+        }
+      }
+
+      div.img-food {
+        position: absolute;
+        bottom: -20%;
+      }
+    }
+  }
+}
