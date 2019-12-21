@@ -1,0 +1,36 @@
+@use 'utils' as util;
+
+body {
+  div.posts {
+    margin-top: 10em;
+    div.row {
+      div.col-md {
+        div.card {
+          img {
+          }
+
+          div.card-body {
+            h5 {
+              font-family: util.$primary-font;
+              letter-spacing: 0.5px;
+              a {
+                color: black;
+                text-decoration: none;
+              }
+
+              a:hover {
+                opacity: 0.8;
+              }
+            }
+            div {
+            }
+            p {
+            }
+            button {
+            }
+          }
+        }
+      }
+    }
+  }
+}

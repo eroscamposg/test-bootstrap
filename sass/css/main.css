@@ -148,9 +148,19 @@ body div.our-work div.container div.img-food {
   bottom: -20%;
 }
 
-body div.carrousel {
-  padding: 0;
-  min-height: 8em;
+body div.posts {
+  margin-top: 10em;
+}
+body div.posts div.row div.col-md div.card div.card-body h5 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  letter-spacing: 0.5px;
+}
+body div.posts div.row div.col-md div.card div.card-body h5 a {
+  color: black;
+  text-decoration: none;
+}
+body div.posts div.row div.col-md div.card div.card-body h5 a:hover {
+  opacity: 0.8;
 }
 body h5 {
   font-family: "Lato", sans-serif;
