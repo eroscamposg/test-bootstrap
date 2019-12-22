@@ -148,8 +148,44 @@ body div.our-work div.container div.img-food {
   bottom: -20%;
 }
 
+body section.burger-slider {
+  margin: 5em 0;
+  background-image: url(../../images/bg7.jpg);
+  background-repeat: repeat-x;
+  animation: slideleft 20000s infinite linear;
+  -webkit-animation: slideleft 20000s infinite linear;
+  background-size: cover;
+  min-height: 25em;
+}
+
+@keyframes slideleft {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 90000%;
+  }
+}
 body div.posts {
-  margin-top: 10em;
+  margin-top: 14em;
+}
+body div.posts div.title {
+  margin-bottom: 4em;
+}
+body div.posts div.title div p {
+  color: #999999;
+  margin: 1em 0;
+}
+body div.posts div.row div.col-md div.card div.header {
+  position: relative;
+}
+body div.posts div.row div.col-md div.card div.header img.rounded-circle {
+  position: absolute;
+  left: 5%;
+  top: 75%;
+}
+body div.posts div.row div.col-md div.card div.card-body {
+  margin-top: 3em;
 }
 body div.posts div.row div.col-md div.card div.card-body h5 {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -160,8 +196,22 @@ body div.posts div.row div.col-md div.card div.card-body h5 a {
   text-decoration: none;
 }
 body div.posts div.row div.col-md div.card div.card-body h5 a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
+body div.posts div.row div.col-md div.card div.card-body div.container h6 {
+  font-size: 0.8em;
+  color: #777777;
+  text-transform: uppercase;
+  margin: 0.5em;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: lighter;
+}
+body div.posts div.row div.col-md div.card div.card-body p {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
 body h5 {
   font-family: "Lato", sans-serif;
   font-size: 1.2em;

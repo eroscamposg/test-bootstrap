@@ -1,0 +1,22 @@
+@use 'utils';
+
+body {
+  section.burger-slider {
+    margin: 5em 0;
+    background-image: url(../../images/bg7.jpg);
+    background-repeat: repeat-x;
+    animation: slideleft 20000s infinite linear;
+    -webkit-animation: slideleft 20000s infinite linear;
+    background-size: cover;
+    min-height: 25em;
+  }
+}
+
+@keyframes slideleft {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 90000%;
+  }
+}
