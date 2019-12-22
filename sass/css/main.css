@@ -214,11 +214,31 @@ body div.posts div.row div.col-md div.card div.card-body p {
   margin-bottom: 1.5em;
 }
 
+body div.newsletters {
+  margin-bottom: 5em;
+}
+body div.newsletters div.row div.col-md div.container {
+  padding-left: 8em;
+}
 body div.newsletters div.row div.col-md div.container p {
   font-family: "Lato", sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #999999;
   margin: 1em 0;
+}
+body div.newsletters div.row div.col-md div.container button.btn-danger:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  opacity: 0.9;
+}
+body div.newsletters div.row div.col-md div.container div.input-group {
+  margin-top: 3em;
+}
+body div.newsletters div.row div.col-md div.container div.input-group input.form-control {
+  height: auto;
+}
+body div.newsletters div.row div.image {
+  padding-right: 0;
 }
 
 body h5 {

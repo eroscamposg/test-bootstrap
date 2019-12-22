@@ -1,0 +1,38 @@
+@use 'utils' as util;
+
+body {
+  div.newsletters {
+    div.row {
+      div.col-md {
+        div.container {
+          padding-left: 8em;
+          p {
+            font-family: util.$secondary-font;
+            font-size: 1em;
+            color: #999999;
+            margin: 1em 0;
+          }
+
+          button.btn-danger:hover{
+            background-color: #dc3545;
+            border-color: #dc3545;
+            opacity: 0.9;
+          }
+
+          div.input-group{
+            margin-top: 3em;
+            input.form-control{
+              height: auto;
+            }            
+          }
+        }
+      }
+
+      div.image{
+        padding-right: 0;
+      }
+    }
+
+    margin-bottom: 5em;
+  }
+}
