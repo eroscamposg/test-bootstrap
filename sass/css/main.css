@@ -215,7 +215,7 @@ body div.posts div.row div.col-md div.card div.card-body p {
 }
 
 body div.newsletters {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 body div.newsletters div.row div.col-md div.container {
   padding-left: 8em;
@@ -239,6 +239,98 @@ body div.newsletters div.row div.col-md div.container div.input-group input.form
 }
 body div.newsletters div.row div.image {
   padding-right: 0;
+}
+
+body footer.footer {
+  background-color: #17181b;
+  padding: 4em 0;
+}
+body footer.footer div.container div.row div.brand a {
+  text-decoration: none;
+}
+body footer.footer div.container div.row div.brand a:hover {
+  opacity: 0.8;
+}
+body footer.footer div.container div.row div.brand a.footer-brand {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #3a3939;
+  padding: 0;
+  position: relative;
+  padding-top: 0.1em;
+  color: #fff;
+}
+body footer.footer div.container div.row div.brand a.footer-brand span {
+  color: #ff3f34;
+  font-size: 0.3em;
+  letter-spacing: 6px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+body footer.footer div.container div.row div.form-group {
+  margin-bottom: 0.5em;
+}
+body footer.footer div.container div.row div.text {
+  margin: 2em 0;
+  padding-left: 0;
+}
+body footer.footer div.container div.row form button {
+  margin-top: 0.5em;
+  padding: 0.5em 2em;
+}
+body footer.footer div.container div.row h4.title {
+  color: #fff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  letter-spacing: 0.05em;
+  margin: 1em 0;
+}
+body footer.footer div.container div.row p {
+  color: #727377;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+body footer.footer div.container div.row ul {
+  align-items: center;
+  list-style-type: none;
+}
+body footer.footer div.container div.row ul.media li p {
+  margin-right: 1em;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+body footer.footer div.container div.row ul.media li a {
+  color: #ffffff;
+  width: 1.9em;
+  height: 1.9em;
+  line-height: 1.9em;
+  margin: 0 0.2em;
+}
+body footer.footer div.container div.row ul.media li.facebook a {
+  background-color: #3b5998;
+}
+body footer.footer div.container div.row ul.media li.twitter a {
+  background-color: #1da1f2;
+}
+body footer.footer div.container div.row ul.media li.google a {
+  background-color: #f44336;
+}
+body footer.footer div.container div.row ul.media li.dribble a {
+  background-color: #ea4c89;
+}
+body footer.footer div.container div.row ul.payments li {
+  margin: 0 0.1em;
+}
+body div.disclaimer {
+  background-color: #1c1d21;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  padding: 1.7em 0;
+}
+body div.disclaimer p {
+  margin-bottom: 0;
 }
 
 body h5 {

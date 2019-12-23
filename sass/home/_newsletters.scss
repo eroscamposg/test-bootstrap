@@ -2,6 +2,8 @@
 
 body {
   div.newsletters {
+    margin-bottom: 1em;
+
     div.row {
       div.col-md {
         div.container {
@@ -13,26 +15,24 @@ body {
             margin: 1em 0;
           }
 
-          button.btn-danger:hover{
+          button.btn-danger:hover {
             background-color: #dc3545;
             border-color: #dc3545;
             opacity: 0.9;
           }
 
-          div.input-group{
+          div.input-group {
             margin-top: 3em;
-            input.form-control{
+            input.form-control {
               height: auto;
-            }            
+            }
           }
         }
       }
 
-      div.image{
+      div.image {
         padding-right: 0;
       }
     }
-
-    margin-bottom: 5em;
   }
 }

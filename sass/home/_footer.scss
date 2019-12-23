@@ -1,0 +1,108 @@
+@use 'utils' as utils;
+@use 'navbar' as navbar;
+
+body {
+  footer.footer {
+    background-color: #17181b;
+    padding: 4em 0;
+    div.container {
+      div.row {
+        div.brand {
+          a {
+            text-decoration: none;
+          }
+
+          a:hover {
+            opacity: 0.8;
+          }
+
+          a.footer-brand {
+            @include navbar.brand-mix;
+            padding-top: 0.1em;
+            color: #fff;
+          }
+        }
+
+        div.form-group {
+          margin-bottom: 0.5em;
+        }
+
+        div.text {
+          margin: 2em 0;
+          padding-left: 0;
+        }
+
+        form {
+          button {
+            margin-top: 0.5em;
+            padding: 0.5em 2em;
+          }
+        }
+
+        h4.title {
+          color: #fff;
+          font-family: utils.$primary-font;
+          letter-spacing: 0.05em;
+          margin: 1em 0;
+        }
+
+        p {
+          color: #727377;
+          font-family: utils.$primary-font;
+        }
+
+        ul {
+          align-items: center;
+          list-style-type: none;
+        }
+        ul.media {
+          li {
+            p {
+              margin-right: 1em;
+              margin-left: 0;
+              margin-bottom: 0;
+            }
+          }
+          li a {
+            color: #ffffff;
+            width: 1.9em;
+            height: 1.9em;
+            line-height: 1.9em;
+            margin: 0 0.2em;
+          }
+
+          li.facebook a {
+            background-color: #3b5998;
+          }
+          li.twitter a {
+            background-color: #1da1f2;
+          }
+          li.google a {
+            background-color: #f44336;
+          }
+          li.dribble a {
+            background-color: #ea4c89;
+          }
+        }
+
+        ul.payments {
+          li {
+            margin: 0 0.1em;
+          }
+        }
+      }
+    }
+  }
+
+  div.disclaimer {
+    background-color: #1c1d21;
+    color: #999999;
+    font-family: utils.$secondary-font;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    padding: 1.7em 0;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
